@@ -7,12 +7,6 @@ var IndexRoute = ReactRouter.IndexRoute;
 var Main = require('../components/Main');
 var Home = require('../components/Home');
 
-// var routes = (
-  // <Route path = '/' component={Main} >
-    // <Route path = '/home' component={Home} >
-  // </Route>
-// );
-
 var routes = (
   <Router>
     <Route path='/' component = {Main}>

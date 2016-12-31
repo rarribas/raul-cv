@@ -1,15 +1,15 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 
-var Home = React.createClass({
+
+var Menu = React.createClass({
   render: function(){
-    console.log('HOME??');
     return(
       <div>
-        Hello from home!!
+       MENU Component
       </div>
     )
   }
 });
 
-module.exports = Home;
+module.exports = Menu;
